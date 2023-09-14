@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/signin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <section class="signin-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text-center">
+              <img
+                src="images/Visitenkarte pure MAISON DE BEAUTE 1.png"
+                alt=""
+                class="logo pb-5"
+              />
+            </div>
+
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="email"
+                  required
+                  placeholder="Email address"
+                  class="w-75 py-2 mb-4 ps-lg-3 form-control"
+                  id="email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  required
+                  placeholder="Password"
+                  class="w-75 py-2 mb-4 ps-lg-3 form-control"
+                  id="password"
+                />
+              </div>
+              <button type="submit" class="w-75 py-3 mt-3" onclick="signin()">
+                Sign In
+              </button>
+              <div class="mt-5">
+                <a href="singup.html">Create New Account</a>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="images/Group 33983.png" alt="" class="side-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script>
+      function signin() {
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+
+        let email1 = localStorage.getItem("email1");
+        let password1 = localStorage.getItem("password1");
+        // console.log(email1);
+        // console.log(password1);
+
+        if (email == email1 && password == password1) {
+          window.location.href = "home.html";
+          alert("Login Successfully Done");
+        } else {
+          alert("Please enter a valid email and password");
+        }
+      }
+    </script> -->
+  </body>
+</html>
