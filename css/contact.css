@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500&family=Trirong:wght@100;200;300;400;500;700;800&display=swap");
+/* .navbar-section css */
+
+.dropdown-toggle {
+  padding-left: 8rem !important;
+  /* padding-right: 5rem !important; */
+}
+.logo {
+  width: 10%;
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+/* .contact-section css */
+.contact-section .style input {
+  /* width: 20% !important; */
+  width: 40% !important;
+}
+
+.contact-section h4 {
+  font-family: Saol Display !important;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  /* margin-top: 1rem !important; */
+}
+.contact-section p {
+  font-family: Abel;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.contact-section button {
+  border-radius: 1.5rem !important;
+}
+.contact-section .input-style {
+  width: 388px;
+  height: 56px;
+  border-radius: 10px;
+  color: #dcdcda;
+}
+/* .contact-section css */
+input,
+textarea {
+  border-radius: 10px !important;
+  border: none;
+  background-color: #dcdcda !important;
+}
+.forename,
+.surname {
+  width: 49.2%;
+}
+textarea {
+  height: 250px !important;
+}
+
+/* .footer-section css */
+.footer-section .footer-img {
+  margin: 0%;
+  width: 40%;
+}
+.footer-section .icon {
+  width: 20%;
+  height: 50%;
+}
+.footer-section img {
+  margin: 0;
+  width: 5%;
+}
+.footer-section span {
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.footer-section .list-items {
+  display: flex;
+  list-style: none;
+}
+.footer-section .list-items a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0rem 0.9rem;
+}
+.footer-section .list-items p {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+}
