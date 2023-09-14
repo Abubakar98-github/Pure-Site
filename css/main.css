@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500&family=Trirong:wght@100;200;300;400;500;700;800&display=swap");
+/* .navbar-section css */
+
+.dropdown-toggle {
+  padding-left: 8rem !important;
+  /* padding-right: 5rem !important; */
+}
+/* .nav-link button {
+  font-family: Petrona;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  text-align: left;
+} */
+.logo {
+  width: 10%;
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+/* .header-section css */
+
+.header-section img {
+  width: 70%;
+}
+.header-section h1 {
+  font-family: Trirong;
+  font-size: 7rem;
+  font-weight: 400;
+  line-height: 6.5rem;
+  color: #888973;
+}
+.header-section p {
+  font-family: Trirong;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #b8b8b8;
+  padding: 1rem 0rem;
+}
+/* .Services-section css */
+.header-section button {
+  width: 120px;
+  height: 120px;
+  top: 674px;
+  left: 450px;
+  border-radius: 0px 72px 0px 72px;
+  background-color: #888973;
+  border: none;
+  cursor: pointer;
+}
+/* .Services-section css */
+
+.Services-section {
+  background-color: #c9c0c0;
+  padding: 7rem 0rem;
+}
+.Services-section h5 {
+  font-family: Trirong;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: left;
+  color: #888973;
+  padding-top: 0.7rem;
+}
+.Services-section .heading {
+  font-family: Trirong;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-align: center;
+  color: #888973;
+}
+.Services-section button {
+  font-family: Trirong;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 44px;
+  color: #888973;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.3rem 2.5rem;
+}
+.Services-section button:hover {
+  background-color: #888973;
+  color: #fff;
+}
+.Services-section img {
+  width: 100%;
+}
+.Services-section h6 {
+  font-family: Trirong;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1.3rem 0rem;
+}
+/* .benefits-section css */
+
+.benefits img {
+  width: 100%;
+}
+.benefits h6 {
+  font-family: Trirong;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #818181;
+  padding: 1.5rem 0rem;
+}
+.benefits h1 {
+  font-family: Trirong;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #888973;
+}
+.benefits p {
+  font-family: Trirong;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+.benefits .prg p {
+  font-family: Trirong;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #818181;
+}
+.benefits button {
+  background-color: #888973;
+  font-family: Trirong;
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  line-height: 44px;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.3rem 2.5rem;
+}
+/* .gallery-1-section css */
+.gallery-1 {
+  background-color: #c9c0c0;
+}
+.gallery-1 img {
+  width: 70%;
+}
+.gallery-1 h1 {
+  font-family: Trirong;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #888973;
+  padding: 1rem 0rem;
+}
+.gallery-1 a {
+  text-decoration: none;
+  font-family: Trirong;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #818181;
+  /* padding: 1rem 0rem; */
+}
+.gallery-1 a:hover {
+  text-decoration: underline;
+}
+.gallery-1 p {
+  font-family: Trirong;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4d4c4c;
+  /* padding-top: 1rem;   */
+}
+/* .gallery-1-section css */
+
+.gallery-2 h1 {
+  font-family: Trirong;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #888973;
+  /* padding: 1rem 0rem !important;   */
+  /* margin: 1rem 0rem; */
+}
+.gallery-2 a {
+  text-decoration: none;
+  font-family: Trirong;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #888973;
+}
+.gallery-2 a:hover {
+  text-decoration: underline;
+}
+.gallery-2 img {
+  width: 70%;
+}
+/* .products-section css */
+
+.products {
+  background-color: #d7cdcd !important;
+}
+.products .shape {
+  background-color: #fff;
+  width: 250px;
+  height: 350px;
+  border-radius: 180px;
+}
+.products h6 {
+  font-family: Trirong;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #888973;
+  padding: 1.5rem 0rem !important;
+}
+/* .srories-section css */
+/* .stories-section {
+  background-color: #d7cdcd !important;
+}
+.stories-section .box {
+  width: 1572px;
+  height: 1550px;
+  border-top-left-radius: 2524px;
+  border-top-right-radius: 2524px;
+  background-color: #f6f6f1;
+}
+
+.stories-section .content {
+  padding: 0rem 1rem;
+}
+.stories-section img {
+  width: 100%;
+  margin-top: 25rem;
+}
+.stories-section .space-top {
+  margin: 8rem 0rem;
+}
+.stories-section p,
+h5 {
+  font-family: Trirong;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #818181;
+  text-decoration: underline;
+}
+.stories-section .footer-content img {
+  margin: 0%;
+  width: 40%;
+}
+.stories-section .footer-content .icon {
+  width: 20%;
+}
+.stories-section .footer img {
+  margin: 0;
+  width: 5%;
+}
+.stories-section .footer span {
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.stories-section .list-items {
+  display: flex;
+  list-style: none;
+}
+.stories-section .list-items a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0rem 0.9rem;
+}
+.stories-section .list-items p {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+} */
