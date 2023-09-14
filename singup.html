@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css/signup.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <section class="signup-section">
+    <div class="container">
+      <div class="row py-5 text-center">
+        <div class="col-lg-6">
+          <img src="images/Visitenkarte pure MAISON DE BEAUTE 1.png" alt="" class="logo" />
+          <form action="" method="get">
+            <div class="form-group">
+              <input type="text" required placeholder="First name" class="w-100 py-2 mb-4 ps-3 ms-4 form-control"
+                id="firstname" />
+            </div>
+            <div class="form-group">
+              <input type="text" required placeholder="Last name" class="w-100 py-2 mb-4 ps-3 ms-4 form-control"
+                id="lastname" />
+            </div>
+            <div class="form-group">
+              <input type="number" required placeholder="Mobile number" class="w-100 py-2 mb-4 ps-3 ms-4 form-control"
+                id="number" />
+            </div>
+            <div class="form-group">
+              <input type="email" required placeholder="Email address" class="w-100 py-2 mb-4 ps-3 ms-4 form-control"
+                id="email" />
+            </div>
+            <div class="form-group">
+              <input type="password" required placeholder="Password" class="w-100 py-2 mb-4 ps-3 ms-4 form-control"
+                id="password" />
+            </div>
+            <!-- <div class="form-group">
+                <input
+                  type="password"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  required
+                  placeholder="Confirm password"
+                  class="w-100 py-2 mb-4 ps-3 ms-4 form-control"
+                  id="confirmpassword"
+                />
+              </div> -->
+            <button type="submit" class="w-100 py-3 ms-4 mt-2" onclick="signup()">
+              Sign Up
+            </button>
+            <div class="mt-4 ms-5">
+              <span>Already have an account?</span>
+              <a href="signin.html">Login Here</a>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/Group 33983.png" alt="" class="side-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <script>
+      function signup() {
+        let firstname = document.getElementById("firstname").value;
+        let lastname = document.getElementById("lastname").value;
+        let number = document.getElementById("number").value;
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+        // let confirmpassword = document.getElementById("confirmpassword").value;
+
+        localStorage.setItem("firstname1", firstname);
+        localStorage.setItem("lastname1", lastname);
+        localStorage.setItem("number1", number);
+        localStorage.setItem("email1", email);
+        localStorage.setItem("password1", password);
+        // localStorage.setItem("confirmpassword1", confirmpassword);
+
+        alert("Congratulation You Are Registered");
+      }
+    </script> -->
+</body>
+
+</html>
