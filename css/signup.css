@@ -1,0 +1,32 @@
+/* .signup-section css */
+.signup-section {
+  background-color: #c9c0c0;
+}
+.signup-section .container {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+.signup-section .logo {
+  width: 20%;
+  height: 10%;
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
+}
+.signup-section button {
+  background-color: #c9c0c0;
+  border: 1px #c9c0c0;
+  border-radius: 5px;
+  /* color: #fff; */
+}
+.signup-section button:hover {
+  background-color: #beb5b5;
+  transition: 0.3s;
+}
+.signup-section .side-image {
+  width: 90%;
+  height: 90%;
+}
+/* .signup-section a {
+  text-decoration: none;
+} */
