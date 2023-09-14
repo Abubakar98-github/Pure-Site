@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500&family=Trirong:wght@100;200;300;400;500;700;800&display=swap");
+/* .navbar-section css */
+
+.dropdown-toggle {
+  padding-left: 8rem !important;
+  /* padding-right: 5rem !important; */
+}
+.nav-link button {
+  font-family: Petrona;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  text-align: left;
+}
+.logo {
+  width: 10%;
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+/* Services-section css */
+.Services-section {
+  background-color: #f6f6f1 !important;
+}
+.Services-section h1 {
+  font-family: Saol Display;
+  font-size: 64px;
+  font-weight: 400;
+}
+.Services-section p {
+  font-family: Abel;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Services-section button {
+  border-radius: 22px;
+  border: none;
+  background-color: #fff;
+  padding: 0.8rem 1.7rem;
+}
+.Services-section h3 {
+  font-family: Trirong;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 2.5rem 0rem !important;
+  /* text-align: center; */
+  padding-left: 2rem !important;
+}
+/* footer section css */
+.footer-section .footer-img {
+  margin: 0%;
+  width: 40%;
+}
+.footer-section .icon {
+  width: 20%;
+  height: 50%;
+}
+.footer-section img {
+  margin: 0;
+  width: 5%;
+}
+.footer-section span {
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.footer-section .list-items {
+  display: flex;
+  list-style: none;
+}
+.footer-section .list-items a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0rem 0.9rem;
+}
+.footer-section .list-items p {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+}
